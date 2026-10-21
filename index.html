@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agent HQ — Colony</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#1b1a16;overflow:hidden;font-family:Verdana,Tahoma,sans-serif;color:#ddd6c4}
+canvas{position:absolute;inset:0;image-rendering:pixelated;cursor:pointer}
+.ui{position:absolute;background:rgba(32,30,26,.92);border:1px solid #5c5546;box-shadow:0 2px 8px #0008}
+#bar{top:6px;left:50%;transform:translateX(-50%);display:flex;gap:6px;padding:5px}
+.col{width:96px;height:90px;border:1px solid #4a4438;background:#2b2924;text-align:center;font-size:10px;cursor:pointer;position:relative}
+.col.sel{border:2px solid #e8d48a}.col canvas{position:static;display:block;margin:3px auto 0}
+.col .st{position:absolute;bottom:2px;left:0;right:0;font-size:9px}
+#tr{top:6px;right:8px;padding:6px 10px;font-size:11px;line-height:1.6;text-align:right;min-width:170px}
+#tr .clk{font-size:16px;color:#f0e6c8}#tr b{color:#e8d48a}
+#info{left:8px;bottom:8px;width:330px;padding:10px 12px;font-size:12px;line-height:1.6;display:none}
+#info h2{margin:0 0 4px;font-size:15px;color:#f0e6c8}#info .k{color:#9a917c;display:inline-block;width:60px}
+#tl{top:6px;left:8px;padding:6px 10px;font-size:12px;color:#e8d48a}
+</style></head><body>
+<canvas id="c"></canvas>
+<div id="tl" class="ui">AGENT HQ · colony view</div>
+<div id="bar" class="ui"></div>
+<div id="tr" class="ui"><div class="clk" id="clk">--:--</div><div id="date"></div><div>Research files <b id="cr">0</b></div><div>Books <b id="cb">0</b></div><div>Logs <b id="cl">0</b></div><div id="upd" style="color:#8a826e;font-size:10px"></div></div>
+<div id="info" class="ui"></div>
+<script src="hq.js"></script></body></html>
