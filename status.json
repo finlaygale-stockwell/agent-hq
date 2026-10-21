@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-21 19:31:17 BST",
+  "updated": "2026-10-21 19:37:22 BST",
   "counts": {
     "research": 29,
-    "books": 89,
-    "logs": 3
+    "books": 464,
+    "logs": 7
   },
   "agents": {
     "goji": {
