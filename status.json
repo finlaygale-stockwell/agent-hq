@@ -1,0 +1,24 @@
+{
+  "updated": "2026-10-21 19:31:17 BST",
+  "counts": {
+    "research": 29,
+    "books": 89,
+    "logs": 3
+  },
+  "agents": {
+    "goji": {
+      "name": "Goji",
+      "room": "COMMAND",
+      "role": "Main assistant",
+      "state": "idle",
+      "task": "Morning inbox summary scheduled for 7am"
+    },
+    "tile": {
+      "name": "Tile",
+      "room": "STUDIO",
+      "role": "KDP colouring-book publisher",
+      "state": "working",
+      "task": "Producing books"
+    }
+  }
+}
